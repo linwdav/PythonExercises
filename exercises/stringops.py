@@ -51,7 +51,6 @@ def is_substring(string1, string2):
     return False
   for i in range(0, difference + 1, 1):
     substring = string2[i:i+len(string1)]
-    #print 'comparing', string1, 'to', substring
     if string1 == substring:
       return True
   return False

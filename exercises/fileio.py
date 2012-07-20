@@ -1,7 +1,7 @@
 def read_from_file(textfile):
   """
   Read lines from file.
-  @param textfile: Filename to read from
+  @param textfile: File to read from
   @return: List of strings, one per line
   """
   infile = file(textfile, 'r')
@@ -14,7 +14,8 @@ def read_from_file(textfile):
 def write_to_file(textfile, string_list):
   """
   Write lines to file.
-  @param textfile: Filename to write to
+  @param textfile: File to write into
+  @param string_list: List of strings to write 
   """
   outfile = file(textfile, 'w')
   for item in string_list:
